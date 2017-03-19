@@ -15,6 +15,7 @@ public:
 	return Pengarang;
 	}
 };
+
 void teknologi(){
 	//kategoriTeknologi
 	perpustakaan tek1;
@@ -24,6 +25,7 @@ void teknologi(){
 	perpustakaan tek5;
 	perpustakaan tek6;
 	perpustakaan tek7;
+
 	
 	//pengisian kategori Teknologi
 	tek1.judulBuku="Basis Data";
@@ -62,6 +64,115 @@ cout<<"6.Judul Buku: "<<tek6.getjudulBuku()<<endl
 cout<<"7.Judul Buku: "<<tek7.getjudulBuku()<<endl
 	<<"   Pengarang :"<<tek7.getPengarang()<<endl;
 }
+
+int agama(){
+	
+	//kategoriAgama
+	perpustakaan rel1;
+	perpustakaan rel2;
+	perpustakaan rel3;
+	perpustakaan rel4;
+	perpustakaan rel5;
+	perpustakaan rel6;
+	perpustakaan rel7;
+	
+	//pengisian kategori Agama
+	rel1.judulBuku="Buku Iqra - Cara cepat baca Quran";
+	rel1.Pengarang="KH Asad Humam";
+	
+	rel2.judulBuku="Kumpulan Doa Sehari-hari untuk anak";
+	rel2.Pengarang="Abu Sangkan";
+
+	rel3.judulBuku="Cerdas Memilih Jodoh";
+	rel3.Pengarang="Zaenal Abidin bin Syarifuddin";
+
+	rel4.judulBuku="Sedekah : Cara cepat menjadi kaya";
+	rel4.Pengarang="Jamal Abdillah bin Husein Mubarok";
+
+	rel5.judulBuku="Mendidik Anak dengan cara yang baik";
+	rel5.Pengarang="Abdul Salam";
+
+	rel6.judulBuku="Mukjizat di waktu subuh";
+	rel6.Pengarang="Imam Hamid Al-Fatih";
+
+	rel7.judulBuku="Ensiklopedia Religi";
+	rel7.Pengarang="Abu Humaira bin Muhammad Hasan";
+
+
+cout<<"============================"<<endl;
+cout<<"Kategori Buku Agama"<<endl;
+cout<<"============================"<<endl;
+cout<<"1. Judul Buku: "<<rel1.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<rel1.getPengarang()<<endl
+cout<<"2. Judul Buku: "<<rel2.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<rel2.getPengarang()<<endl
+cout<<"3. Judul Buku: "<<rel3.getjudulBuku()<<endl
+	<<"   Pengarang :"<<rel3.getPengarang()<<endl
+cout<<"4. Judul Buku: "<<rel4.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<rel4.getPengarang()<<endl
+cout<<"5. ID Buku :"<<rel5.getidBuku()<<endl
+	<<"   Judul Buku: "<<rel5.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<rel5.getPengarang()<<endl
+cout<<"6. Judul Buku: "<<rel6.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<rel6.getPengarang()<<endl
+cout<<"7. Judul Buku: "<<rel7.getjudulBuku()<<endl
+	<<"   Pengarang :"<<rel7.getPengarang()<<endl
+}
+
+int filsafat(){
+	
+	//kategoriFilsafat
+	perpustakaan fil1;
+	perpustakaan fil2;
+	perpustakaan fil3;
+	perpustakaan fil4;
+	perpustakaan fil5;
+	perpustakaan fil6;
+	perpustakaan fil7;
+	
+	//pengisian kategori Filsafat
+	fil1.judulBuku="Manusia dan Ego";
+	fil1.Pengarang="Fritz Becekenbauer";
+
+	fil2.judulBuku="What is Philosophy?";
+	fil2.Pengarang="Jean-Pierre Tournesol";
+
+	fil3.judulBuku="Aku : Dariku,Olehku dan Untukku";
+	fil3.Pengarang="Raden Soetomo";
+
+	fil4.judulBuku="Fundamentalisme dalam Umat Manusia";
+	fil4.Pengarang="Henry Rousseau";
+
+	fil5.judulBuku="The root of Good and Evil";
+	fil5.Pengarang="Benjamin Stewart";
+
+	fil6.judulBuku="Fiksi";
+	fil6.Pengarang="John Goodman Jr.";
+
+	fil7.judulBuku="A Beautiful Mind";
+	fil7.Pengarang="Issa Khawarizmi";
+
+cout<<"============================"<<endl;
+cout<<"Kategori Buku Filsafat"<<endl;
+cout<<"============================"<<endl;
+cout<<"1. Judul Buku: "<<fil1.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil1.getPengarang()<<endl
+
+cout<<"2. Judul Buku: "<<fil2.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil2.getPengarang()<<endl
+cout<<"3. Judul Buku: "<<fil3.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil3.getPengarang()<<endl
+cout<<"4. Judul Buku: "<<fil4.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil4.getPengarang()<<endl
+cout<<"5. Judul Buku: "<<fil5.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil5.getPengarang()<<endl
+cout<<"6. Judul Buku: "<<fil6.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil6.getPengarang()<<endl
+cout<<"7. Judul Buku: "<<fil7.getjudulBuku()<<endl
+ 	<<"   Pengarang :"<<fil7.getPengarang()<<endl
+}
+
+
 int main(){
 	int pilihan;
 	cout<<"================================="<<endl;
@@ -87,6 +198,3 @@ int main(){
 			filsafat();break;
 return 0;
 }
-	
-
-
